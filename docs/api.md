@@ -11,10 +11,29 @@ results = sim.run(mc_runs=100)
 
 ### Parameters
 - `config`: Dict with tle_file, station_loc, pair_rate, attacks
+- `enable_qtt`: Enable Quantum Time Transfer (default: False)
+- `sync_rate`: QTT synchronization rate in Hz (default: 1000)
+- `qtt_precision_ps`: QTT precision in picoseconds (default: 0.1)
 
 ### Methods
 - `run(mc_runs)`: Run Monte Carlo simulation
 - `export_results(results, output_dir)`: Save to CSV/JSON
+
+## Quantum Time Transfer (QTT)
+
+```python
+from quantum_gnss_guard.qtt import QuantumTimeTransfer
+
+qtt = QuantumTimeTransfer(sync_rate=1000, precision_ps=0.1)
+sync_events = qtt.generate_sync_pulses(duration, gnss_times)
+anomalies = qtt.detect_sync_anomalies(sync_events)
+```
+
+### Methods
+- `generate_sync_pulses()`: Generate quantum sync pulse events
+- `detect_sync_anomalies()`: Detect timing anomalies with sub-ps precision
+- `simulate_decoherence()`: Model quantum decoherence effects
+- `estimate_clock_drift()`: Real-time clock drift estimation
 
 ## Orbital
 
