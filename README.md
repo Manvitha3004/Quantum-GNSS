@@ -307,25 +307,25 @@ Open-source breakthrough for global quantum security - see [LICENSE](LICENSE) fi
 
 ## 🗺️ **ROADMAP TO QUANTUM SUPREMACY**
 
-### 🎯 **Stage 1: Breakthrough Simulator** ✅ *COMPLETED*
+### **Stage 1: Breakthrough Simulator** 
 - Quantum Time Transfer (QTT) integration
 - >99% detection rates with <1% FPR
 - Sub-picosecond timing precision
 - Production-ready software stack
 
-### 🔬 **Stage 2: Lab Prototype** 🚧 *IN PROGRESS*
+### **Stage 2: Lab Prototype**
 - Hardware-in-the-loop SPAD integration
 - RF frontend with quantum receiver
 - Real-time FPGA processing pipeline  
 - Benchtop validation with GPS simulators
 
-### 🎈 **Stage 3: Balloon Demo** 🎯 *NEXT*
+### **Stage 3: Balloon Demo** 
 - High-altitude balloon quantum relay
 - Long-range entanglement distribution
 - Multi-ground-station network
 - Public dataset generation
 
-### 🚀 **Stage 4: CubeSat Mission** 🌟 *FUTURE*
+### **Stage 4: CubeSat Mission** 
 - LEO quantum CubeSat deployment
 - Global quantum GNSS network
 - Commercial quantum integrity service
