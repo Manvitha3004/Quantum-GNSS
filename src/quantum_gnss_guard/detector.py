@@ -132,18 +132,23 @@ class Detector:
         legit_dt = np.random.normal(0, 50e-12, len(dt))  # Placeholder
 
         classical_score = self.classical_detect(legit_dt, dt)
+        ml_score = None
 
-        if use_ml:
-            _, hist = coincidence_histogram(dt, bins=self.bins)
-            ml_score = self.ml_detect(hist.astype(float))
-            # Combine scores
-            combined_score = 0.7 * classical_score + 0.3 * ml_score
+        if use_ml and self.vae is not None:
+            try:
+                _, hist = coincidence_histogram(dt, bins=self.bins)
+                ml_score = self.ml_detect(hist.astype(float))
+                # Combine scores
+                combined_score = 0.7 * classical_score + 0.3 * ml_score
+            except Exception as e:
+                print(f"ML detection failed: {e}")
+                combined_score = classical_score
         else:
             combined_score = classical_score
 
         return {
             'classical_score': classical_score,
-            'ml_score': ml_score if use_ml else None,
+            'ml_score': ml_score,
             'combined_score': combined_score,
             'decision': combined_score > 0.5
         }
