@@ -1,4 +1,4 @@
-# 🛡️ Quantum GNSS Guard
+# Quantum GNSS Guard
 ### *The First Quantum-Enhanced GNSS Spoofing Detection System*
 
 ```
@@ -9,7 +9,7 @@
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 🌟 **BREAKTHROUGH ACHIEVEMENTS**
+## **BREAKTHROUGH ACHIEVEMENTS**
 
 **World's First**: Quantum Time Transfer (QTT) integration for GNSS integrity  
  **Sub-Picosecond**: 0.1 ps timing precision using Bell-pair synchronization  
@@ -19,7 +19,7 @@
 
 ---
 
-## 📊 **PERFORMANCE METRICS**
+## **PERFORMANCE METRICS**
 
 | Metric | Baseline | **QTT-Enhanced** | Breakthrough |
 |--------|----------|------------------|--------------|
@@ -31,7 +31,7 @@
 
 ---
 
-## 🔬 **SCIENTIFIC NOVELTY**
+## **SCIENTIFIC NOVELTY**
 
 ### **First-Ever Integration**
 - **Quantum Entanglement** + 🛰️ **GNSS Timing** + 🤖 **Machine Learning**
@@ -53,28 +53,28 @@
 
 ---
 
-## 🏗️ **SYSTEM ARCHITECTURE**
+## **SYSTEM ARCHITECTURE**
 
 ```mermaid
 graph TB
-    subgraph "🛰️ Quantum CubeSat"
+    subgraph "Quantum CubeSat"
         A[SPDC Source] --> B[Entangled Pairs]
         B --> C[Downlink @ 1550nm]
     end
     
-    subgraph "🌍 Ground Station"
+    subgraph "Ground Station"
         C --> D[Quantum Receiver]
         D --> E[Coincidence Detection]
         E --> F[QTT Sync Module]
     end
     
-    subgraph "🤖 AI Detection Core"
+    subgraph "AI Detection Core"
         F --> G[VAE Anomaly Engine]
         G --> H[Hellinger Analysis]
         H --> I[Quantum Score Fusion]
     end
     
-    subgraph "📊 Real-Time Dashboard"
+    subgraph "Real-Time Dashboard"
         I --> J[Threat Detection]
         I --> K[Performance Metrics]
         I --> L[Alert Generation]
@@ -88,9 +88,9 @@ graph TB
 
 ---
 
-## ⚡ **BREAKTHROUGH FEATURES**
+## **BREAKTHROUGH FEATURES**
 
-### 🔮 **Quantum Time Transfer (QTT)**
+### **Quantum Time Transfer (QTT)**
 ```
 ┌─────────────────────────────────────────┐
 │  Bell Pairs: |Φ⁺⟩ = (|00⟩ + |11⟩)/√2   │
@@ -104,7 +104,7 @@ graph TB
 - **Instant Anomaly Detection**: Real-time sync verification
 - **Quantum Security**: Information-theoretic unforgeability
 
-### 🎯 **Multi-Layer Detection Stack**
+### **Multi-Layer Detection Stack**
 ```
 Layer 4: Quantum-AI Fusion    → Final threat score
 Layer 3: Hellinger Analysis   → Statistical divergence  
@@ -112,14 +112,14 @@ Layer 2: VAE Anomaly Engine   → Pattern recognition
 Layer 1: QTT Baseline        → Quantum sync verification
 ```
 
-### 🛡️ **Advanced Attack Coverage**
+### **Advanced Attack Coverage**
 - **Time-Push Attacks**: Nanosecond timing manipulation detection
 - **Signal Replay**: Correlation analysis vs. quantum fingerprint
 - **Hybrid Spoofing**: Multi-vector attack identification
 - **Zero-Day Threats**: GAN-generated adversarial scenarios
 - **Meaconing**: Delay-and-forward attack mitigation
 
-### 📈 **Production-Grade Analytics**
+### **Production-Grade Analytics**
 - **Real-Time ROC**: Live performance monitoring
 - **Adaptive Thresholds**: ML-optimized detection sensitivity
 - **Multi-Receiver Fusion**: Distributed quantum network
@@ -128,9 +128,9 @@ Layer 1: QTT Baseline        → Quantum sync verification
 
 ---
 
-## 🚀 **QUICK START**
+## **QUICK START**
 
-### 📥 Installation
+### Installation
 ```bash
 # Clone breakthrough quantum GNSS system
 git clone https://github.com/yourusername/quantum-gnss-guard.git
@@ -140,16 +140,16 @@ cd quantum-gnss-guard
 pip install -r requirements.txt
 
 # Enable production mode (optional)
-pip install -e .
+pip install -e.
 ```
 
-### ⚡ **One-Line QTT Demo**
+### **One-Line QTT Demo**
 ```bash
 # Experience quantum breakthrough in seconds!
-python -c "from quantum_gnss_guard.simulator import Simulator; print('🛡️ QTT Detection:', Simulator({'enable_qtt': True}).run()['detection_score'].mean())"
+python -c "from quantum_gnss_guard.simulator import Simulator; print('QTT Detection:', Simulator({'enable_qtt': True}).run()['detection_score'].mean())"
 ```
 
-### 🎮 **Interactive CLI**
+### **Interactive CLI**
 ```bash
 # Full simulation with quantum enhancement
 python scripts/run_sim.py \
@@ -163,9 +163,9 @@ python scripts/run_sim.py \
   --output results/quantum_run/
 ```
 
-### 🔬 **Breakthrough Jupyter Demos**
+### **Breakthrough Jupyter Demos**
 ```
-📂 notebooks/
+notebooks/
 ├── 01_orbital_demo.ipynb      → Satellite pass prediction
 ├── 02_quantum_channel_demo.ipynb → Bell-pair generation  
 ├── 03_spoof_simulation.ipynb  → Attack scenario modeling
@@ -174,7 +174,7 @@ python scripts/run_sim.py \
 └── 06_qtt_demo.ipynb         → QTT BREAKTHROUGH DEMO
 ```
 
-### 🧪 **Production API**
+### **Production API**
 ```python
 from quantum_gnss_guard.simulator import Simulator
 
@@ -184,7 +184,7 @@ config_quantum = {
     'station_loc': (40.7128, -74.0060, 0),  # NYC
     'pair_rate': 5000,                       # 5k pairs/sec
     'attacks': [{'attack_type': 'time-push', 'delta_ns': 5}],
-    'enable_qtt': True,                      # 🔮 QUANTUM BREAKTHROUGH
+    'enable_qtt': True,                      # QUANTUM BREAKTHROUGH
     'sync_rate': 1000,                       # 1 kHz sync
     'qtt_precision_ps': 0.1                  # 0.1 ps precision
 }
@@ -192,13 +192,13 @@ config_quantum = {
 sim = Simulator(config_quantum)
 results = sim.run(mc_runs=100)
 
-print(f"🎯 Detection Rate: {results['detection_score'].mean():.1%}")
-print(f"⚡ QTT Enhancement: {results['qtt_score'].mean():.4f}")
+print(f"Detection Rate: {results['detection_score'].mean():.1%}")
+print(f"QTT Enhancement: {results['qtt_score'].mean():.4f}")
 ```
 
 ---
 
-## 📁 **PROJECT STRUCTURE**
+## **PROJECT STRUCTURE**
 
 ```
 quantum-gnss-guard/
@@ -223,7 +223,7 @@ quantum-gnss-guard/
 └── data/                           # TLE files & configurations
 ```
 
-### 🏆 **Key Modules Explained**
+### **Key Modules Explained**
 - **qtt.py**: Breakthrough Quantum Time Transfer with Bell-pair sync
 - **detector.py**: Hybrid quantum-classical ML detection engine
 - **quantum_channel.py**: Physics-accurate SPDC entanglement modeling
@@ -232,9 +232,9 @@ quantum-gnss-guard/
 
 ---
 
-## ✅ **VALIDATION & TESTING**
+## **VALIDATION & TESTING**
 
-### 🧪 **Comprehensive Test Suite**
+### **Comprehensive Test Suite**
 ```bash
 # Run all quantum tests
 pytest tests/ -v
@@ -248,9 +248,9 @@ pytest tests/test_simulator.py::test_end_to_end_qtt -v
 pytest --cov=quantum_gnss_guard --cov-report=html
 ```
 
-### 📊 **Benchmark Results**
+### **Benchmark Results**
 ```
-🎯 Detection Performance Tests:
+Detection Performance Tests:
 QTT Precision: 0.1 ps (target: <1 ps)
 Detection Rate: 99.2% (target: >95%)
 False Positive: 0.8% (target: <5%)
@@ -260,16 +260,16 @@ Memory Usage: <500MB (target: <1GB)
 
 ---
 
-## 🤝 **CONTRIBUTING**
+## **CONTRIBUTING**
 
-### 🌟 **Join the Quantum Revolution!**
+### **Join the Quantum Revolution!**
 We welcome contributions to the world's first quantum GNSS security system!
 
 ```bash
 # Development setup
 git clone https://github.com/yourusername/quantum-gnss-guard.git
 cd quantum-gnss-guard
-pip install -e ".[dev]"
+pip install -e ".[dev]."
 pre-commit install
 
 # Code standards
@@ -278,7 +278,7 @@ pylint src/                # Lint check
 pytest tests/ --cov       # Run tests with coverage
 ```
 
-### 🎯 **Priority Areas**
+### **Priority Areas**
 - **Quantum Algorithms**: Advanced entanglement protocols
 - **ML Enhancement**: GAN-based zero-day attack generation
 - **Hardware Integration**: SPAD/APD detector interfaces
@@ -287,12 +287,12 @@ pytest tests/ --cov       # Run tests with coverage
 
 ---
 
-## 📜 **LICENSE & CITATION**
+## **LICENSE & CITATION**
 
-### 📄 **MIT License**
+### **MIT License**
 Open-source breakthrough for global quantum security - see [LICENSE](LICENSE) file.
 
-### 📚 **Citation**
+### **Citation**
 ```bibtex
 @software{quantum_gnss_guard_2025,
   title={Quantum GNSS Guard: Entanglement-Based Spoofing Detection},
@@ -305,7 +305,7 @@ Open-source breakthrough for global quantum security - see [LICENSE](LICENSE) fi
 
 ---
 
-## 🗺️ **ROADMAP TO QUANTUM SUPREMACY**
+## **ROADMAP TO QUANTUM SUPREMACY**
 
 ### **Stage 1: Breakthrough Simulator** 
 - Quantum Time Transfer (QTT) integration
@@ -333,17 +333,17 @@ Open-source breakthrough for global quantum security - see [LICENSE](LICENSE) fi
 
 ---
 
-## 🏆 **BREAKTHROUGH IMPACT**
+## **BREAKTHROUGH IMPACT**
 
 > *"The first quantum-enhanced GNSS system that achieves information-theoretic security against advanced spoofing attacks while maintaining real-time performance."*
 
-### 🌟 **Global Recognition Potential**
+###  **Global Recognition Potential**
 - **arXiv Preprint**: Ready for quantum cryptography conference submission
 - **IEEE Publication**: Targeting Aerospace & Electronic Systems journal
 - **Industry Adoption**: Commercial quantum timing applications
 - **Standards Impact**: Contribution to next-gen PNT protocols
 
-### 📈 **Commercial Applications**
+###  **Commercial Applications**
 - **Aviation**: Quantum-secured navigation for autonomous aircraft
 - **Maritime**: Unforgeable timing for vessel traffic management  
 - **Automotive**: Quantum integrity for autonomous vehicle localization
